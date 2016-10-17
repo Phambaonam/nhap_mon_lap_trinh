@@ -1,0 +1,2 @@
+ tong duoc luu vao file example_export.txt: 16 
+ 
