@@ -10,6 +10,6 @@ int main()
 	printf("Hello World \n");
 	printf("Cong hoa xa hoi chu nghia Viet Nam \n");
 	printf("Doc lap * Tu do * Hanh Phuc");
-	return(0);
+	return 0;
 	
 }
