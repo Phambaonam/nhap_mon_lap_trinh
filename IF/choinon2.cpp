@@ -17,5 +17,6 @@ int main()
 	} else{
 		printf("a khac b\n");
 	}
+	
 	return 0;
 }

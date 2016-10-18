@@ -12,12 +12,12 @@ int main()
 	int a,b;
 	
 	scanf("%d%d",&a,&b);
-	if(a ==b){
-		printf("a bang b");
+	if(a == b){
+		printf("a bang b\n");
 	} else if(a > b){
-		printf("a lon hon b");
+		printf("a lon hon b\n");
 	} else{
-		printf("a nho hon b");
+		printf("a nho hon b\n");
 	}
 	
 	return 0;
