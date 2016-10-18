@@ -7,14 +7,14 @@
 
 using namespace std;
 
-int hour,minute,sec,time,h,m,s,sumSec,giay;
+int hour,minute,sec,time,h,m,s,sumSec,secGreaterDay;
 int main()
 {
 	
-	scanf("%d", &hour);
-	scanf("%d", &minute);
-	scanf("%d", &sec);
-	scanf("%d", &time);
+	scanf("%d",&hour);
+	scanf("%d",&minute);
+	scanf("%d",&sec);
+	scanf("%d",&time);
 	
 	sumSec = hour*3600 + minute*60 +sec +time;
 	if(sumSec < 24*3600){
@@ -23,9 +23,9 @@ int main()
 	m = s/60;
 	s = s - m * 60;
 	}else{
-	giay = 24 *3600 - sumSec;
-	h = giay/3600;
-	s = giay - h * 3600;
+	secGreaterDay = 24 *3600 - sumSec;
+	h = secGreaterDay/3600;
+	s = secGreaterDay - h * 3600;
 	m = s/60;
 	s = s - m * 60;
 	}
