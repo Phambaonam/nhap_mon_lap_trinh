@@ -11,9 +11,9 @@ int main()
 	
 	scanf("%d %d %d", &a, &b, &c);
 	
-	if(a> b && a >c){
+	if(a >= b && a >=c){
 		printf("so lon nhat la: %d\n",a);
-	} else if(b >a && b >c){
+	} else if(b >= a && b >= c){
 		printf("so lon nhat la: %d\n",b);
 	} else {
 		printf("so lon nhat la: %d\n",c);

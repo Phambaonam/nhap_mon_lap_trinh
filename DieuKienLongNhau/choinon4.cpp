@@ -15,13 +15,13 @@ int main()
 	
 	if(a >= 9){
 		printf("Xuat sac");
-	} else if(a >= 8 && a < 9){
+	} else if(a >= 8){
 		printf("Gioi");
-	} else if(a >= 7 && a < 8){
+	} else if(a >= 7){
 		printf("kha");
-	}else if(a >= 6 && a < 7){
+	}else if(a >= 6){
 		printf("TBKha");
-	} else if(a >= 5 && a < 6){
+	} else if(a >= 5){
 		printf("Tbinh");
 	} else{
 		printf("Yeu");

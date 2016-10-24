@@ -9,9 +9,10 @@ using namespace std;
 
 int main()
 {
-	freopen("choinon11.inp","r",stdin);
+	//freopen("choinon11.inp","r",stdin);
 	
 	int a,b;
+	
 	scanf("%d %d",&a, &b);
 	
 	 if(a != 0 && b != 0){
