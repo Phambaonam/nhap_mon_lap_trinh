@@ -9,12 +9,14 @@
  int main()
  {
  	int R;
- 	float a = 1.333,Pi =3.14,S,V;
+ 	float Pi =3.14,S,V;
  	
  	scanf("%d",&R);
  	
  	S = 4*Pi*R*R;
- 	V = a*Pi*R*R*R;
+// ep kieu float 	
+// 	V = (float)4/3*Pi*R*R*R;
+	V = +4.0/3*Pi*R*R*R;
  	
  	printf("Dien tich hinh cau la: %f\n",S);
  	printf("The tich hinh cau la: %f\n",V);
