@@ -11,17 +11,17 @@ int main()
 {	
 	freopen("labiec10.inp","r",stdin);
 	
-	int a,b,UCNL,BCNN;
+	int n,a,b,UCNL,BCNN;
 	
-	scanf("%d %d",&a,&b);
+	scanf("%d %d %d",&n,&a,&b);
 	
-	for(int i =1; i<=100;i++){
+	for(int i =1; i<=n;i++){
 		if(a%i==0 && b%i==0){
 			UCNL=i;
 			BCNN = (a*b)/UCNL;
 		}		
 	}
-	printf("%d\n",UCNL);
-	printf("%d\n",BCNN);
+	printf("uoc chung lon nhat la %d\n",UCNL);
+	printf("boi chung nho nhat la %d\n",BCNN);
 	return 0;
 }
